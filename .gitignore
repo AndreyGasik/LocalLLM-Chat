@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Данные приложения (чаты, память, настройки, логи)
+data/
+
+# Служебные файлы
+PROJECT-STATE.md
+*.log
+
+# Локальные скрипты подготовки релиза
+_shots/
+
+# Сборка бинарника (PyInstaller)
+build-pyi/
+staging/
+dist/
+.pip-cache/
+build.log
